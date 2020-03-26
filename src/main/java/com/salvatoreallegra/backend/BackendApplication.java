@@ -30,6 +30,7 @@ public class BackendApplication {
 			Projects testProject = new Projects();
 			testProject.setProjectName("React Tiles");
 			testProject.setProjectDescription("Color Picker");
+			testProject.setProjectLanguage("Java");
 			testProject.setId(1);
 			projectRepository.save(testProject);	
 			

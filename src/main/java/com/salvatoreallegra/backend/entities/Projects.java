@@ -10,6 +10,14 @@ public class Projects {
 	private long id;
 	private String projectName;
 	private String projectDescription;
+	private String projectLanguage;
+	
+	public String getProjectLanguage() {
+		return projectLanguage;
+	}
+	public void setProjectLanguage(String projectLanguage) {
+		this.projectLanguage = projectLanguage;
+	}
 	public long getId() {
 		return id;
 	}
