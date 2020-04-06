@@ -38,21 +38,21 @@ public class BackendApplication {
 			testProject.setProjectName("React Tiles");
 			testProject.setProjectDescription("Color Picker");
 			testProject.setProjectLanguage("Java");
-			testProject.setId(1);
+			testProject.setId(2);
 			projectRepository.save(testProject);	
 			
 			Projects testProject3 = new Projects();
 			testProject.setProjectName("React Tiles");
 			testProject.setProjectDescription("Color Picker");
 			testProject.setProjectLanguage("Java");
-			testProject.setId(1);
+			testProject.setId(3);
 			projectRepository.save(testProject);	
 			
 			Projects testProject4 = new Projects();
 			testProject.setProjectName("React Tiles");
 			testProject.setProjectDescription("Color Picker");
 			testProject.setProjectLanguage("Java");
-			testProject.setId(1);
+			testProject.setId(4);
 			projectRepository.save(testProject);	
 			
 
