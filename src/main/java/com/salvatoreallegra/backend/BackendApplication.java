@@ -16,10 +16,9 @@ public class BackendApplication {
 
 	public static void main(String[] args) {
 		
-		BinarySearchImpl binarySearch = new BinarySearchImpl();
+		
 		SpringApplication.run(BackendApplication.class, args);
-		int result = binarySearch.binarySearch(new int[] {1,2,3,4}, 4);
-		System.out.println(result);
+	
 		
 	}
 	
