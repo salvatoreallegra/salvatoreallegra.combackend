@@ -1,4 +1,4 @@
- package com.salvatoreallegra.backend;
+ package com.salvatoreallegra;
 
 import java.util.Scanner;
 
@@ -7,18 +7,15 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-
-import com.salvatoreallegra.backend.entities.Projects;
-import com.salvatoreallegra.backend.repositories.ProjectRepository;
+import com.salvatoreallegra.entities.Projects;
+import com.salvatoreallegra.repositories.ProjectRepository;
 
 @SpringBootApplication
-public class BackendApplication {
+public class SalvatoreAllegra {
 
 	public static void main(String[] args) {
 		
-		
-		SpringApplication.run(BackendApplication.class, args);
-	
+		SpringApplication.run(SalvatoreAllegra.class, args);	
 		
 	}
 	

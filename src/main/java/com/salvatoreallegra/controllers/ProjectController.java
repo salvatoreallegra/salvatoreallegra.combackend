@@ -1,4 +1,4 @@
-package com.salvatoreallegra.backend.controllers;
+package com.salvatoreallegra.controllers;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.salvatoreallegra.backend.entities.Projects;
-import com.salvatoreallegra.backend.repositories.ProjectRepository;
+import com.salvatoreallegra.entities.Projects;
+import com.salvatoreallegra.repositories.ProjectRepository;
 
 
 @CrossOrigin

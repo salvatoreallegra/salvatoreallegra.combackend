@@ -1,4 +1,4 @@
-package com.salvatoreallegra.backend.entities;
+package com.salvatoreallegra.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
