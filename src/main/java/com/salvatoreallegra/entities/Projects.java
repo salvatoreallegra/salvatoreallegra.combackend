@@ -1,5 +1,8 @@
 package com.salvatoreallegra.entities;
 
+import java.util.List;
+
+import javax.persistence.ElementCollection;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
@@ -10,19 +13,33 @@ public class Projects {
 	private long id;
 	private String projectName;
 	private String projectDescription;
-	private String projectLanguage;
 	
-	public String getProjectLanguage() {
-		return projectLanguage;
+	@ElementCollection
+	private List<String> technologies;
+	
+	public Projects() {
+		
 	}
-	public void setProjectLanguage(String projectLanguage) {
-		this.projectLanguage = projectLanguage;
+	
+	public Projects(long id, String projectName, String projectDescription, List<String> technologies) {
+		super();
+		this.id = id;
+		this.projectName = projectName;
+		this.projectDescription = projectDescription;
+		this.technologies = technologies;
 	}
+	
 	public long getId() {
 		return id;
 	}
 	public void setId(long id) {
 		this.id = id;
+	}
+	public List<String> getTechnologies() {
+		return technologies;
+	}
+	public void setTechnologies(List<String> technologies) {
+		this.technologies = technologies;
 	}
 	public String getProjectName() {
 		return projectName;
